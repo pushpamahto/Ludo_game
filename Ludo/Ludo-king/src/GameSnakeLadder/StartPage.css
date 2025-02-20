@@ -1,0 +1,39 @@
+ .startpage{
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+
+@keyframes scaleImage {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.06);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .snake-ladder-animation {
+    animation: scaleImage 2s ease-in-out infinite;
+  }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   

@@ -1,0 +1,111 @@
+/* Base styles for the card */
+.buy-sell-card {
+    background-color: #f0f8ff;
+    color: #2c3e50;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 56rem;
+    margin: 0 auto;
+  }
+  
+  /* Media queries for screens below 768px */
+  @media (max-width: 768px) {
+    .buy-sell-card {
+      padding: 1rem;
+    }
+  
+    .buy-sell-card h2 {
+      font-size: 1.5rem; /* Smaller heading */
+      margin-bottom: 1rem;
+    }
+  
+    .buy-sell-card table {
+      font-size: 0.875rem; /* Smaller text for table */
+    }
+  
+    .buy-sell-card th,
+    .buy-sell-card td {
+      padding: 0.5rem; /* Reduced padding */
+    }
+  
+    .buy-sell-card th {
+      font-size: 0.875rem; /* Smaller header text */
+    }
+  
+    .buy-sell-card tbody tr {
+      font-size: 0.75rem; /* Even smaller text for table rows */
+    }
+  }
+
+
+
+
+
+  @media (max-width: 620px) {
+    .buy-sell-card {
+      padding: 1rem;
+      
+    }
+    
+  
+    .buy-sell-card h2 {
+      font-size: 1rem; /* Smaller heading */
+      margin-bottom: 1rem;
+    }
+  
+    .buy-sell-card table {
+      font-size: 0.80rem; /* Smaller text for table */
+    }
+  
+    .buy-sell-card th,
+    .buy-sell-card td {
+      padding: 0.5rem; /* Reduced padding */
+    }
+  
+    .buy-sell-card th {
+      font-size: 0.75rem; /* Smaller header text */
+    }
+  
+    .buy-sell-card tbody tr {
+      font-size: 0.60rem; /* Even smaller text for table rows */
+    }
+  }
+  
+
+
+  
+  /* Media queries for very small screens (e.g., 200px - 400px) */
+  @media (max-width: 420px) {
+    .buy-sell-card {
+      padding: 0.5rem;
+    }
+  
+    .buy-sell-card h2 {
+      font-size: 0.60rem; /* Even smaller heading */
+    }
+  
+    .buy-sell-card table {
+      font-size: 0.45rem; /* Very small text for table */
+    }
+  
+    .buy-sell-card th,
+    .buy-sell-card td {
+      padding: 0.2rem; /* Minimal padding */
+    }
+  
+    .buy-sell-card th {
+      font-size: 0.50rem; /* Very small header text */
+    }
+  
+    .buy-sell-card tbody tr {
+      font-size: 0.40rem; /* Tiny text for table rows */
+    }
+  }
+
+
+
+
+
+

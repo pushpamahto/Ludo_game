@@ -1,0 +1,110 @@
+
+
+.gamemode {
+    width: 70%;
+    margin: auto;
+    position: relative;
+  }
+  
+  /* Base styles for the player selection buttons */
+  .player-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns by default */
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .player-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: #4CAF50; /* Green background */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .player-button:hover {
+    background-color: #388E3C; /* Darker green on hover */
+  }
+  
+  .player-button.selected {
+    background-color: #2E7D32; /* Even darker green for selected state */
+  }
+  
+  /* Media Queries for Responsive Design */
+  
+  /* For tablets and smaller desktops */
+  @media (max-width: 1024px) {
+    .gamemode {
+      width: 80%;
+    }
+  
+    .player-grid {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
+    }
+  
+    .player-button {
+      width: 56px;
+      height: 56px;
+    }
+  }
+  
+  /* For smaller tablets */
+  @media (max-width: 768px) {
+    .gamemode {
+      width: 90%;
+    }
+  
+    .player-grid {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller tablets */
+    }
+  
+    .player-button {
+      width: 48px;
+      height: 48px;
+    }
+  }
+  
+  /* For mobile devices */
+  @media (max-width: 480px) {
+    .gamemode {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .player-grid {
+      grid-template-columns: 1fr; /* 1 column for mobile devices */
+      gap: 12px;
+    }
+  
+    .player-button {
+      width: 64px;
+      height: 64px;
+    }
+  
+    h2 {
+      font-size: 2rem; /* Smaller heading for mobile */
+    }
+  
+    
+  
+    .flex.justify-between button {
+      width: 100%; /* Full-width buttons */
+    }
+  }
+  
+  /* For very small mobile devices */
+  @media (max-width: 320px) {
+    .player-button {
+      width: 56px;
+      height: 56px;
+    }
+  
+    h2 {
+      font-size: 1.75rem; /* Even smaller heading for very small devices */
+    }
+  }

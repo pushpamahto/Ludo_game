@@ -1,0 +1,40 @@
+
+.selectlevel{
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+
+  .LEVEL-container {
+    display: flex;
+    align-items: center;
+    padding-left: 34%;
+    margin-bottom: 10px;
+  }
+  
+  .easy-mode,
+  .medium-mode,
+  .hard-mode {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .checkbox {
+    width: 30px; /* Increased checkbox size */
+    height: 30px; /* Increased checkbox size */
+    border-radius: 5px;
+    border: 4px solid rgb(0, 0, 0);
+    background-color: #43442900;
+  }
+  
+  .easy-mode-selected .checkbox,
+  .medium-mode-selected .checkbox,
+  .hard-mode-selected .checkbox {
+    background-color: rgba(45, 255, 7, 0.667);
+  }
+  
+  h3 {
+    margin: 0; /* Remove default margin */
+  }

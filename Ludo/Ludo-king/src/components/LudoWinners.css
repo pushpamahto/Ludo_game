@@ -1,0 +1,77 @@
+/* Base styles for the card */
+.ludo-winners-card {
+    background-color: #f0f8ff;
+    color: #2c3e50;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 56rem;
+    margin: 0 auto;
+  }
+  
+  /* Media queries for screens below 768px */
+  @media (max-width: 768px) {
+    .ludo-winners-card {
+      padding: 1rem;
+    }
+  
+    .ludo-winners-card h2 {
+      font-size: 1.5rem; /* Smaller heading */
+      margin-bottom: 1rem;
+    }
+  
+    .ludo-winners-card .winner-item {
+      font-size: 0.875rem; /* Smaller text for winner items */
+      padding: 0.5rem; /* Reduced padding */
+    }
+  
+    .ludo-winners-card .winner-item span {
+      font-size: 0.875rem; /* Smaller text for winner details */
+    }
+  }
+
+
+
+  @media (max-width: 620px) {
+    .ludo-winners-card {
+      padding: 1rem;
+    }
+  
+    .ludo-winners-card h2 {
+      font-size: 1rem; /* Smaller heading */
+      margin-bottom: 1rem;
+    }
+  
+    .ludo-winners-card .winner-item {
+      font-size: 0.10rem; /* Smaller text for winner items */
+      padding: 0.5rem; /* Reduced padding */
+    }
+  
+    .ludo-winners-card .winner-item span {
+      font-size: 0.55rem; /* Smaller text for winner details */
+    }
+  }
+
+
+
+  
+  /* Media queries for very small screens (e.g., 200px - 400px) */
+  @media (max-width: 420px) {
+    .ludo-winners-card {
+      padding: 0.5rem;
+    }
+  
+    .ludo-winners-card h2 {
+      font-size: 0.60rem; /* Even smaller heading */
+    }
+  
+    .ludo-winners-card .winner-item {
+      font-size: 0.5rem; /* Very small text for winner items */
+      padding: 0.2rem; /* Minimal padding */
+    }
+  
+    .ludo-winners-card .winner-item span {
+      font-size: 0.4rem; /* Very small text for winner details */
+    }
+  }
